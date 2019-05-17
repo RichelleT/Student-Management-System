@@ -10,4 +10,12 @@ public class Stud {
 	// contructor - users will need to enter students' names and year
 
 	// Generates a student ID for students 
+
+	// Student enrolling courses
+
+	// Students view of balance 
+
+	// students pay tuition
+
+	// shows students status
 }
