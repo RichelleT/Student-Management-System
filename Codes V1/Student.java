@@ -8,8 +8,7 @@ Copyright 2019, Richelle Tan, All rights reserved.
 
 import java.util.Scanner;
 
-public class Stud {
-	// contructor - users will need to enter students' names and year
+public class Student {
 	private String firstN; // students first name
 	private String lastN; // students last name
 	private String yearSem; // students current year and semester
@@ -19,6 +18,7 @@ public class Stud {
 	private int tuitionBal; // students balance of tuition
 	private int courseCosts; // the costs for a certain course
 
+	// users will need to enter students' names and year
 	public Student() {
 		Scanner in = new Scanner(System.in);
 	}
