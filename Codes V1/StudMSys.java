@@ -8,6 +8,8 @@ Copyright 2019, Richelle Tan, All rights reserved.
 
 public class StudMSys {
 	public static void main(String[] args){
-		
+		// ask how many users or students needed to add
+
+		// create selected number of students
 	}
 }
