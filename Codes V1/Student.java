@@ -21,6 +21,12 @@ public class Student {
 	// users will need to enter students' names and year
 	public Student() {
 		Scanner in = new Scanner(System.in);
+
+		System.out.print("Enter the student's first name: ");
+		this.firstN = in.nextLine();
+
+		System.out.print("Enter the student's last name: ");
+		this.lastN = in.nextLine();
 	}
 
 	// Generates a student ID for students 
