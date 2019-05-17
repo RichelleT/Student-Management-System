@@ -14,6 +14,8 @@ public class Stud {
 	private int studID; // students' assigned student identification number
 	private String courses; // courses students are enrolled in
 	private String modules; // modules a student has registered for
+	private int tuitionBal; // students balance of tuition
+	private int courseCosts; // the costs for a certain course
 
 	// Generates a student ID for students 
 
