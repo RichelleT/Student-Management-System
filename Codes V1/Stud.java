@@ -6,6 +6,8 @@ Copyright 2019, Richelle Tan, All rights reserved.
 
 */
 
+import java.util.Scanner;
+
 public class Stud {
 	// contructor - users will need to enter students' names and year
 	private String firstN; // students first name
@@ -16,6 +18,10 @@ public class Stud {
 	private String modules; // modules a student has registered for
 	private int tuitionBal; // students balance of tuition
 	private int courseCosts; // the costs for a certain course
+
+	public Student() {
+		Scanner in = new Scanner(System.in);
+	}
 
 	// Generates a student ID for students 
 
