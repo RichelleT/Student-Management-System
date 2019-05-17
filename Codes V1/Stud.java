@@ -8,6 +8,12 @@ Copyright 2019, Richelle Tan, All rights reserved.
 
 public class Stud {
 	// contructor - users will need to enter students' names and year
+	private String firstN; // students first name
+	private String lastN; // students last name
+	private String yearSem; // students current year and semester
+	private int studID; // students' assigned student identification number
+	private String courses; // courses students are enrolled in
+	private String modules; // modules a student has registered for
 
 	// Generates a student ID for students 
 
