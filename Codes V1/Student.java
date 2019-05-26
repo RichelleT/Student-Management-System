@@ -11,7 +11,8 @@ import java.util.Scanner;
 public class Student {
 	private String firstN; // students first name
 	private String lastN; // students last name
-	private String yearSem; // students current year and semester
+	private String yearS; // students current year
+	private String semS; // students current semester
 	private int studID; // students' assigned student identification number
 	private String courses; // courses students are enrolled in
 	private String modules; // modules a student has registered for
@@ -22,11 +23,17 @@ public class Student {
 	public Student() {
 		Scanner in = new Scanner(System.in);
 
-		System.out.print("Enter the student's first name: ");
+		System.out.println("Enter the student's first name: ");
 		this.firstN = in.nextLine();
 
-		System.out.print("Enter the student's last name: ");
+		System.out.println("Enter the student's last name: ");
 		this.lastN = in.nextLine();
+
+		System.out.print("Enter the student's current year of study: ");
+		this.yearS = in.nextInt();
+
+		System.out.println("Enter the semester the student is currently in: ");
+		this.semS = in.nextInt();		
 	}
 
 	// Generates a student ID for students 
