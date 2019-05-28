@@ -5,6 +5,7 @@ Code protected under copyright and is under the MIT license.
 Copyright 2019, Richelle Tan, All rights reserved.
 
 */
+package studentdatabaseapp;
 
 import java.util.Scanner;
 
@@ -33,14 +34,16 @@ public class Student {
 		this.yearS = in.nextInt();
 
 		System.out.println("Enter the semester the student is currently in: ");
-		this.semS = in.nextInt();		
+		this.semS = in.nextInt();
+
+		System.out.println(firstN+""+lastN+""+yearS+""+semS);
 	}
 
-	// Generates a student ID for students 
+	// Generates a student ID for students
 
 	// Student enrolling courses
 
-	// Students view of balance 
+	// Students view of balance
 
 	// students pay tuition
 
