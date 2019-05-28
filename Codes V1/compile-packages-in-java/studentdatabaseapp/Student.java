@@ -12,8 +12,8 @@ import java.util.Scanner;
 public class Student {
 	private String firstN; // students first name
 	private String lastN; // students last name
-	private String yearS; // students current year
-	private String semS; // students current semester
+	private int yearS; // students current year
+	private int semS; // students current semester
 	private int studID; // students' assigned student identification number
 	private String courses; // courses students are enrolled in
 	private String modules; // modules a student has registered for
